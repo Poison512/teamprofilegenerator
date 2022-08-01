@@ -26,7 +26,7 @@ const generateTeam = (team) => {
         <ul class="list-group list-group-flush">
             <li class="list-group-item">ID: ${manager.id}</li>
             <li class="list-group-item">Email: <span id="email"><a href="mailto:${manager.emial}">${manager.email}</a></span></li>
-            <li class="list-group-item">GitHub Username: <a target="blank" href="https://github.com/${manager.github}"> ${manager.github}</a></li>
+            <li class="list-group-item">GitHub Username: <a target="blank" href="https://GitHub.com/${manager.GitHub}"> ${manager.GitHub}</a></li>
         </ul>
     </div>
     `;
@@ -42,7 +42,7 @@ const generateTeam = (team) => {
         <ul class="list-group list-group-flush">
             <li class="list-group-item">ID: ${engineer.id}</li>
             <li class="list-group-item">Email: <span id="email"><a href="mailto:${engineer.emial}">${engineer.email}</a></span></li>
-            <li class="list-group-item">GitHub Username: <a target="blank" href="https://github.com/${engineer.github}"> ${engineer.github}</a></li>
+            <li class="list-group-item">GitHub Username: <a target="blank" href="https://GitHub.com/${engineer.GitHub}"> ${engineer.GitHub}</a></li>
         </ul>
     </div>
     `;
@@ -58,7 +58,7 @@ const generateTeam = (team) => {
         <ul class="list-group list-group-flush">
             <li class="list-group-item">ID: ${intern.id}</li>
             <li class="list-group-item">Email: <span id="email"><a href="mailto:${intern.emial}">${intern.email}</a></span></li>
-            <li class="list-group-item">GitHub Username: <a target="blank" href="https://github.com/${intern.github}"> ${intern.github}</a></li>
+            <li class="list-group-item">GitHub Username: <a target="blank" href="GitHub.com/${intern.GitHub}/"> ${intern.GitHub}</a></li>
         </ul>
     </div>
     `;
